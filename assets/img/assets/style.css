@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 40px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 40px;
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navlinks i{
+    font-size: 20px;
+    color: rgb(210, 206, 206);
+    cursor: pointer;
+}
+
+.navlinks li{
+    margin: 20px;
+}
